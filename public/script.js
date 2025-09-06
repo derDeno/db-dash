@@ -1,6 +1,6 @@
 const statusUrl = '/api/rs/status';
 const tripUrl = '/api/rs/tripInfo/trip';
-const maxSpeed = 300; // km/h for progress bar
+const maxSpeed = 350; // km/h for progress bar
 let map, marker;
 
 function updateStatus(data) {
@@ -69,6 +69,6 @@ window.addEventListener('DOMContentLoaded', () => {
   initMap();
   fetchStatus();
   fetchTrip();
-  setInterval(fetchStatus, 10000);
+  setInterval(fetchStatus, 5000);
   setInterval(fetchTrip, 60000);
 });
