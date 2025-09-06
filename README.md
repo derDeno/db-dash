@@ -7,7 +7,7 @@ It uses the local api endpoints, that are available on the trains WiFi network.
 
 ## Usage
 
-Due to CORS policies, this is wrapped into a docker container.
+Due to CORS policies, this is wrapped into a docker container with a nginx proxy.
 Build it yourself:
 
 ``` bash
