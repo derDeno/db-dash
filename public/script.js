@@ -69,6 +69,6 @@ window.addEventListener('DOMContentLoaded', () => {
   initMap();
   fetchStatus();
   fetchTrip();
-  setInterval(fetchStatus, 5000);
+  setInterval(fetchStatus, 2500);
   setInterval(fetchTrip, 60000);
 });
