@@ -1,5 +1,7 @@
-# db-dash
-Deutsche Bahn onboard (in train WiFi network) Dashboard.
+# Deutsche Bahn Dashboard
+![Dashboard screenshot](Dashboard.png)
+
+Deutsche Bahn ICE onboard (in train WiFi network) dashboard.
 
 It uses the local api endpoints, that are available on the trains WiFi network.
 
