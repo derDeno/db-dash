@@ -5,6 +5,12 @@ It uses the local api endpoints, that are available on the trains WiFi network.
 
 ## Usage
 
-Open `index.html` in a browser while connected to the train's WiFi network. The page periodically queries
-`/api1/rs/status` and `/api1/rs/tripInfo/trip` to display connection state, speed, location on a map and
-basic trip information.
+Due to CORS policies, this is wrapped into a docker container.
+Build it yourself:
+
+``` bash
+docker build -t db.dash .
+docker run --rm -p 3600:80 db-dash
+```
+
+Or use the provided image under packages

@@ -1,5 +1,5 @@
-const statusUrl = 'https://iceportal.de/api1/rs/status';
-const tripUrl = 'https://iceportal.de/api1/rs/tripInfo/trip';
+const statusUrl = '/api/rs/status';
+const tripUrl = '/api/rs/tripInfo/trip';
 const maxSpeed = 300; // km/h for progress bar
 let map, marker;
 
